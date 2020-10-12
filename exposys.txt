@@ -1,0 +1,36 @@
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    string x;
+    string a,b,c,d,e,f,g,h,i,j,k,l;
+    std::cin>>x;
+    a="What";
+    b="When";
+    c="Who";
+    d="Is";
+    e="Can";
+    f="Did";
+    g="Will";
+    h="Have";
+    i="Do";
+    j="Are";
+    k="Would";
+    l="Could";
+    cout<<"Type:";
+    
+   if(x==a) 
+    std::cout <<a << std::endl;
+    else if(x==b)
+    std::cout <<b << std::endl;
+    else if(x==c)
+    std::cout <<c << std::endl;
+    else if(x==d||x==e||x==f||x==g||x==h||x==i||x==j||x==k||x==l)
+    std::cout <<"affirmative"<< std::endl;
+   else
+    std::cout <<"unknown" << std::endl;
+     return 0;
+}
